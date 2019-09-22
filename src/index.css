@@ -1,0 +1,264 @@
+body {
+  margin: 0px;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 10vh !important;
+  padding-bottom: 10vh !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.fa.fa-facebook {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(66, 103, 178);
+}
+
+.fa.fa-twitter {
+  font-size: 20px;
+  margin-right: 10px;
+  color: rgb(56, 161, 243);
+}
+
+.fa.fa-instagram {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #993399;
+}
+
+.jumbotron {
+  background-image: url("./public/cover_10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.container,
+.container-flex,
+.alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  height: 100vh;
+}
+.form-container {
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.3);
+}
+
+.card-body button[type="button"],
+.form-group button[type="submit"] {
+  font-size: 15px;
+  margin-top: 30px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 5px #fff;
+  padding: 5px 30px;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnGroup button[type="button"] {
+  font-size: 15px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 5px #fff;
+  padding: 5px 30px;
+}
+/* .form-group input[type="text"],
+input[type="password"],
+input[type="email"] {
+  background-color: rgba(79, 101, 107, 0.2);
+  width: 100%;
+  font-size: 15px;
+  box-shadow: 0px 0px 5px #343a40;
+}
+.form-group input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+.form-group textarea:focus {
+  border: none;
+  background-color: rgba(79, 101, 107, 0.2);
+  box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(255, 255, 255, 0.3);
+} */
+h3 {
+  font-family: Ubuntu;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: Ubuntu;
+  margin-top: 30px;
+  color: rgb(8, 157, 243);
+  font-weight: bold;
+}
+h5 {
+  font-family: Ubuntu;
+  margin-top: 25px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(47, 220, 226);
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  align-items: center;
+  justify-content: center;
+}
+.card-body {
+  text-align: center;
+}
+
+/*LOGIN AND REGISTER*/
+
+/* .logRegForm {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+  font-family: Ubuntu-bold;
+  color: #343a40;
+  border-radius: 10px;
+  padding: 30px 15px;
+  background-color: transparent;
+  background-image: url("./public/cover_10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 5px 10px 0px rgba(23, 162, 184, 0.3);
+}
+
+.postLabel {
+  color: #343a40;
+  line-height: 2;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+.logRegForm h5 {
+  color: #343a40;
+  line-height: 2;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.form-group textarea {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 5px #343a40;
+}*/
+
+/*.form-group input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+.form-group textarea:focus {
+  border: none;
+  background: transparent;
+  box-shadow: 0 5px 10px 0px #14a0b9;
+  -webkit-box-shadow: 0 5px 10px 0px #14a0b9;
+}
+
+.btnLog,
+.btnReg,
+.btnCard,
+.btnPost {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form-group button[type="submit"] {
+  width: 80%;
+  justify-content: center;
+  box-shadow: 0px 0px 5px #343a40;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: Ubuntu-Bold;
+  font-size: 15px;
+}
+
+.form-group button[type="submit"]:focus {
+  outline: none;
+  border: none;
+  border: 1px solid #fff;
+  box-shadow: 0 5px 10px 0px #14a0b9;
+  -webkit-box-shadow: 0 5px 10px 0px #14a0b9;
+}
+
+.form-group button[type="submit"]:hover {
+  color: #343a40;
+  border: none;
+  box-shadow: 0 5px 10px 0px #14a0b9;
+  -webkit-box-shadow: 0 5px 10px 0px #14a0b9;
+}
+
+.form-check {
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+  border-radius: 20px;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+}
+.checkLabel {
+  padding-left: 10px;
+}
+
+.form-check input[type="checkbox"] {
+  vertical-align: middle;
+}
+ */
+/* .center-row {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #993399;
+}*/
+
+/*NEW QUOTE PAGE*/
+/*.quoteCard {
+  width: 700px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -1;
+}
+.card-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .btnCard {
+  text-align: center;
+  margin-top: 20px;
+} */
